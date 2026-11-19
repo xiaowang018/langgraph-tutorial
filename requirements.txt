@@ -32,8 +32,12 @@ tenacity>=8.2
 # 第 3 章：Tavily 联网搜索
 langchain-tavily>=0.1
 
-# 第 4 章：通义千问 + 文本向量 + 向量库
+# 第 4 章：大模型 + 文本向量 + 向量库
+# RAG 示例使用火山方舟（OpenAI 兼容接口）调用 DeepSeek 对话模型与豆包嵌入模型
+openai>=1.30
 dashscope>=1.20
+faiss-cpu>=1.8
+pypdf>=4.0
 chromadb>=0.5
 
 # 第 5 章：工作流可视化（另需系统安装 Graphviz：https://graphviz.org/download/）
